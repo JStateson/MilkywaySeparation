@@ -1,4 +1,4 @@
-#BUILDS MILKYWAY WINDOWS APP
+BUILDS MILKYWAY WINDOWS APP
 
 Do exactly as instructed in the README.md here
 https://github.com/Milkyway-at-home/milkywayathome_client
@@ -25,9 +25,13 @@ C:\Program Files (x86)\OCL_SDK_Light\lib\x86_64>
 Using ftp or a USB flash to copy that file to your build directory
 
 create a run_cmake to look something like the following
+
 #!/bin/bash
+
 cmake -DCMAKE_TOOLCHAIN_FILE="../milkywayathome_client/cmake_modules/MinGW32-Cross-Toolchain.cmake" \
- -DBUILD_32=OFF -DSEPARATION_OPENCL=ON -DSEPARATION_STATIC=ON -DOPENCL_LIBRARIES=/home/jstateson/Projects/opencl.lib  \
- -DOPENCL_INCLUDE_DIRS=/usr/include/OpenCL  ../milkywayathome_client/
+
+-DBUILD_32=OFF -DSEPARATION_OPENCL=ON -DSEPARATION_STATIC=ON -DOPENCL_LIBRARIES=/home/jstateson/Projects/opencl.lib  \
+
+-DOPENCL_INCLUDE_DIRS=/usr/include/OpenCL  ../milkywayathome_client/
 
 ----or just download the files I got here if you trust this repositiory----
