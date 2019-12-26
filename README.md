@@ -3,7 +3,7 @@ BUILDS MILKYWAY WINDOWS APP
 Do exactly as instructed in the README.md here
 https://github.com/Milkyway-at-home/milkywayathome_client
 
-Befor step 3 do the folowing
+Before step 3 do the folowing
 
 sudo apt-get install opencl-headers
 
@@ -24,7 +24,7 @@ C:\Program Files (x86)\OCL_SDK_Light\lib\x86_64>
 
 Using ftp or a USB flash to copy that file to your build directory
 
-create a run_cmake to look something like the following
+create a run_cmake.sh to look something like the following
 
 #!/bin/bash
 
