@@ -4,14 +4,19 @@ Do exactly as instructed in the README.md here
 https://github.com/Milkyway-at-home/milkywayathome_client
 
 Befor step 3 do the folowing
+
 sudo apt-get install opencl-headers
+
 the above creats a folder at /usr/include/CL
+
 The folder is correct but the location needs to be changed
 
 Create /usr/include/OpenCL
+
 move the CL folder into that directory
 
 Using a windows computer download the OCL_SDK_Light.exe here
+
 https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases/tag/1.0
 
 Run the program and get the opcncl.lib file which can be found here
