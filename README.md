@@ -30,8 +30,8 @@ create a run_cmake.sh to look something like the following
 
 cmake -DCMAKE_TOOLCHAIN_FILE="../milkywayathome_client/cmake_modules/MinGW32-Cross-Toolchain.cmake" \
 
--DBUILD_32=OFF -DSEPARATION_OPENCL=ON -DSEPARATION_STATIC=ON -DOPENCL_LIBRARIES=/home/jstateson/Projects/opencl.lib  \
+-DBUILD_32=OFF -DSEPARATION_OPENCL=ON -DSEPARATION_STATIC=ON -DOPENCL_LIBRARIES=/whatever1/opencl.lib  \
 
--DOPENCL_INCLUDE_DIRS=/usr/include/OpenCL  ../milkywayathome_client/
+-DOPENCL_INCLUDE_DIRS=/whatever2/OpenCL  ../milkywayathome_client/
 
 ----or just download the files I got here if you trust this repositiory----
