@@ -1,0 +1,27 @@
+Have not figured out a good way to install, but am working on it.
+
+Problem:  when boinc starts up the Milkyway locality server senses a different executable at
+	C:\ProgramData\BOINC\projects\milkyway.cs.rpi.edu_milkyway>
+It will replace it with the current one from the project.  This means you cannot just
+rename your mod to use the same name as the Milkyway app.
+
+Temporary work-arond
+
+1.  If you copy the apps you built the directory listing should look like the following
+
+ Directory of C:\ProgramData\BOINC\projects\milkyway.cs.rpi.edu_milkyway
+
+12/26/2019  03:54 PM           791,412 lua.exe
+11/29/2019  07:48 PM         1,184,768 milkyway_1.46_windows_x86_64__opencl_ati_101.exe
+12/26/2019  03:54 PM         6,204,928 milkyway_nbody.exe
+12/27/2019  02:31 AM         1,583,104 milkyway_separation.exe
+
+2. Suspend the Milkyway project
+3. Save the original app and COPY the new app to the same nanme as the original
+
+ren milkyway_1.46_windows_x86_64__opencl_ati_101.exe milkyway_1.46_windows_x86_64__opencl_ati_101_orig.exe
+copy milkyway_separation.exe milkyway_1.46_windows_x86_64__opencl_ati_101.exe
+
+============warning===========
+
+you will have to repeat the copy operation every time the system reboots or if you stop and start the boinc client.
