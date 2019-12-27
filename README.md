@@ -1,4 +1,4 @@
-BUILDS MILKYWAY WINDOWS APP
+BUILDS MILKYWAY WINDOWS APP (ATI only, not NVidia)
 
 Do exactly as instructed in the README.md here
 https://github.com/Milkyway-at-home/milkywayathome_client
@@ -36,3 +36,4 @@ cmake -DCMAKE_TOOLCHAIN_FILE="../milkywayathome_client/cmake_modules/MinGW32-Cro
 
 ----or just download the files I got here if you trust this repositiory----
 feel free to make any suggestions especially if you get a better library than the one I found
+note that the library was ATI as AMD recommen ded the OCL light SDK
