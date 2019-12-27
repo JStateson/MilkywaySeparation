@@ -35,4 +35,4 @@ cmake -DCMAKE_TOOLCHAIN_FILE="../milkywayathome_client/cmake_modules/MinGW32-Cro
 -DOPENCL_INCLUDE_DIRS=/where2/OpenCL  ../milkywayathome_client/
 
 ----or just download the files I got here if you trust this repositiory----
-feel free to make any suggestions especially if ou get a better library than the one I found
+feel free to make any suggestions especially if you get a better library than the one I found
