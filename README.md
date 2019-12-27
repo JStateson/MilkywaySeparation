@@ -19,7 +19,7 @@ Using a windows computer download the OCL_SDK_Light.exe here
 
 https://github.com/GPUOpen-LibrariesAndSDKs/OCL-SDK/releases/tag/1.0
 
-Run the program and get the opcncl.lib file which can be found here
+Run the program and get the opencl.lib file which can be found here
 C:\Program Files (x86)\OCL_SDK_Light\lib\x86_64>
 
 Using ftp or a USB flash to copy that file to your build directory
